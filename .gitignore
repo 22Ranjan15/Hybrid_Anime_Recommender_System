@@ -6,5 +6,4 @@ artifacts/weights
 artifacts/model
 artifacts/model_checkpoint
 logs
-test.py
 .env
