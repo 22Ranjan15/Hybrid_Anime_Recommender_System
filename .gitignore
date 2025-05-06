@@ -8,5 +8,4 @@ artifacts/model_checkpoint
 logs
 test.py
 .env
-src/components
 pipeline
