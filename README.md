@@ -1,16 +1,16 @@
-# ?? Hybrid Anime Recommender System - End-to-End ML Project ??
+# 🚀 Hybrid Anime Recommender System - End-to-End ML Project 🚀
 
 [![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg)]()
 
 
-## ? Overview
+## ✨ Overview
 
 This project is a comprehensive deep learning solution designed to recommend anime titles based on user preferences. By leveraging hybrid recommendation techniques including collaborative filtering and content-based approaches, it aims to provide personalized anime suggestions that match user tastes and viewing history. The project follows the entire ML lifecycle, from data collection and preprocessing to model deployment with an interactive cyberpunk-themed user interface.
 
 
-## ?? Key Features
+## 🎯 Key Features
 
 * **Personalized Anime Recommendations:** Employs advanced deep learning models to suggest anime titles based on user preference patterns.
 
@@ -29,7 +29,7 @@ This project is a comprehensive deep learning solution designed to recommend ani
 * **Kubernetes Orchestration:** Configured for deployment on Kubernetes for scalability and high availability.
 
 
-## ??? Technologies Used
+## 🛠️ Technologies Used
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
@@ -48,68 +48,68 @@ This project is a comprehensive deep learning solution designed to recommend ani
 * **Orchestration:** Kubernetes
 * **Deployment:** Google Cloud Platform (GCP)
 
-## ?? Project Structure
+## ⚙️ Project Structure
 This repository implements a production-grade machine learning application with a modular, maintainable architecture:
 ```
 HYBRID ANIME RECOMMENDER SYSTEM/
-??? .dvc/
-??? .dvcignore
-??? .gitignore
-??? artifacts/
-?   ??? model/
-?   ?   ??? model.h5
-?   ??? processed/
-?   ?   ??? anime_df.csv
-?   ?   ??? rating_df.csv
-?   ?   ??? synopsis_df.csv
-?   ??? raw_data/
-?       ??? anime_with_synopsis.csv
-?       ??? anime.csv
-?       ??? animelist.csv
-??? config/
-?   ??? init.py
-?   ??? config.yaml
-?   ??? paths_config.py
-??? custom_jenkins/
-?   ??? Dockerfile
-??? notebooks/
-?   ??? experiments.ipynb
-??? pipeline/
-?   ??? init.py
-?   ??? prediction_pipeline.py
-?   ??? training_pipeline.py
-??? src/
-?   ??? init.py
-?   ??? components/
-?   ?   ??? init.py
-?   ?   ??? base_model.py
-?   ?   ??? data_ingestion.py
-?   ?   ??? data_processor.py
-?   ?   ??? model_trainer.py
-?   ??? exception.py
-?   ??? logger.py
-??? static/
-?   ??? images/
-?   ?   ??? favicon.ico
-?   ??? style.css
-??? templates/
-?   ??? index.html
-??? utils/
-?   ??? init.py
-?   ??? helpers.py
-?   ??? utils.py                             
-??? app.py                                
-??? deployment.yaml                      
-??? Dockerfile                            
-??? Jenkinsfile                           
-??? project_structure.py                 
-??? README.md                            
-??? requirements.txt                      
-??? setup.py                              
-??? Test.py                               
+├── .dvc/
+├── .dvcignore
+├── .gitignore
+├── artifacts/
+│   ├── model/
+│   │   └── model.h5
+│   ├── processed/
+│   │   ├── anime_df.csv
+│   │   ├── rating_df.csv
+│   │   └── synopsis_df.csv
+│   └── raw_data/
+│       ├── anime_with_synopsis.csv
+│       ├── anime.csv
+│       └── animelist.csv
+├── config/
+│   ├── init.py
+│   ├── config.yaml
+│   └── paths_config.py
+├── custom_jenkins/
+│   └── Dockerfile
+├── notebooks/
+│   └── experiments.ipynb
+├── pipeline/
+│   ├── init.py
+│   ├── prediction_pipeline.py
+│   └── training_pipeline.py
+├── src/
+│   ├── init.py
+│   ├── components/
+│   │   ├── init.py
+│   │   ├── base_model.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_processor.py
+│   │   └── model_trainer.py
+│   ├── exception.py
+│   └── logger.py
+├── static/
+│   ├── images/
+│   │   └── favicon.ico
+│   └── style.css
+├── templates/
+│   └── index.html
+├── utils/
+│   ├── init.py
+│   ├── helpers.py
+│   └── utils.py                             
+├── app.py                                
+├── deployment.yaml                      
+├── Dockerfile                            
+├── Jenkinsfile                           
+├── project_structure.py                 
+├── README.md                            
+├── requirements.txt                      
+├── setup.py                              
+└── Test.py                               
 ```
 
-## ?? Model Development and Selection
+## ⚙️ Model Development and Selection
 The recommendation system uses a hybrid approach combining:
 
 1. **Collaborative Filtering:** Identifies similar users and recommends anime titles they've enjoyed
@@ -126,7 +126,7 @@ Key highlights from the model development process:
 
 * Evaluation metrics included precision, recall, and user satisfaction metrics
 
-## ?? Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 Before you begin, ensure you have the following installed:
@@ -180,7 +180,7 @@ Before you begin, ensure you have the following installed:
    kubectl apply -f deployment.yaml
    ```
 
-## ?? Cloud Deployment
+## ☁️ Cloud Deployment
 
 The application is deployed on Google Cloud Platform. Specific services used include:
 
@@ -200,16 +200,11 @@ The application is deployed on Google Cloud Platform. Specific services used inc
 
 - Load balancing and scaling are handled automatically by Kubernetes
 
-## ?? Demo
+## 🎥 Demo
 
-- ?? Screenshots of the anime recommender interface:
-  - Homepage with cyberpunk-themed UI
-  - Results page showing personalized anime recommendations
-  - Mobile-responsive design
+- 📽️ Demo: [Anime Recommender System](https://drive.google.com/file/d/10f1Jncpyh7YRwu4WcqtnV06DE1L9x3ha/view?usp=sharing)
 
-- ?? Demo: [Anime Recommender System](https://drive.google.com/file/d/10f1Jncpyh7YRwu4WcqtnV06DE1L9x3ha/view?usp=sharing)
-
-## ?? Performance
+## 📈 Performance
 
 The hybrid recommendation system achieves:
 
@@ -221,7 +216,7 @@ The hybrid recommendation system achieves:
 
 The system continuously improves as more user data becomes available.
 
-## ?? Contributions
+## 🤝 Contributions
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -231,11 +226,11 @@ Contributions are welcome! Please follow these guidelines:
 4. Push to the branch
 5. Submit a pull request
 
-## ?? License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-## ?? Contact
+## 📧 Contact
 
 ### Your Name
 - **Email:** [ranjandasbd22@gmail.com](ranjandasbd22@gmail.com)
