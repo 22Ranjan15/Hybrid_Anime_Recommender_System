@@ -7,3 +7,4 @@ artifacts/model
 artifacts/model_checkpoint
 logs
 .env
+Test.py
