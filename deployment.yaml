@@ -25,7 +25,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: ml-app
+    app: anime-recommender-app
   ports:
   - protocol: TCP
     port: 80
